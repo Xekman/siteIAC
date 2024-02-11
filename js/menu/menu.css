@@ -1,0 +1,103 @@
+TD.menu_image
+{
+	padding: 0px 8px 0px 0px;
+}
+
+TD.menu_text
+{
+	font-family: Tahoma, Arial; 
+	font-size: 9pt; 
+	color: #303030;
+	cursor: pointer;
+}
+
+DIV.menu_header
+{
+	font-family: Tahoma, Arial; 
+	font-size: 9pt; 
+	color: #303030;
+	cursor: pointer;
+}
+
+DIV.menu_left 
+{
+	float:left; 
+}
+
+DIV.menu_right 
+{
+	float: right;
+}
+
+DIV.menu_header
+{
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-khtml-border-radius: 2px 2px 2px 2px;
+	width: 188px;
+	border: 1px solid #b7b6ba;
+	padding: 8px;
+	margin: 0px;
+	cursor: pointer;
+	background-image: url('img/arrow.png'), url('img/menu.png');
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left center;
+}
+
+DIV.menu_header:hover
+{
+	/*background:url('img/menu.png');*/
+}
+
+DIV.menu_content 
+{
+	position: absolute; 
+	overflow: hidden; 
+	width: 206px; 
+	display: none; 
+	z-index: 500;
+}
+
+DIV.menu_inner 
+{
+	width: 204px;
+	border: 1px solid #b7b6ba;
+	padding: 0px;
+	margin: 0px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-khtml-border-radius: 2px 2px 2px 2px;
+}
+
+DIV.menu_inner ul 
+{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+DIV.menu_inner li 
+{
+	margin: 0px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+DIV.menu_inner li:hover 
+{
+	background-color: #e7e7e7;
+}
+
+DIV.menu_inner hr
+{
+	clear: both; 
+	background-color: #f0f0f0; 
+	height: 1px; 
+	border: 0px none; 
+	padding: 0px; 
+	margin: 2px 8px;
+}

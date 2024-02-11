@@ -1,0 +1,36 @@
+#ajax_listOfOptions
+{
+	position: absolute;
+	width: 248px;
+	height: 175px;
+	overflow: auto;
+	border: 1px solid #a7a6aa;
+	background-color: #FFF;
+	text-align:left;
+	border-color: #a7a6aa;
+	z-index:100;
+	font-family: Tahoma, Arial; 
+	font-size: 11pt; 
+	color: #000000;
+	border-radius: 2px;	
+}
+
+#ajax_listOfOptions div
+{
+	margin: 0px;
+	padding: 4px;
+	cursor: pointer;
+	font-size: 10pt;
+}
+
+#ajax_listOfOptions .optionDiv
+{	
+	white-space:nowrap;
+}
+
+#ajax_listOfOptions .optionDivSelected
+{
+	background-color: highlight;
+	color: highlighttext;
+	white-space:nowrap;
+}

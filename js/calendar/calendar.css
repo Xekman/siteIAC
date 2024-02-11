@@ -1,0 +1,210 @@
+DIV.tcal_show, .tcal_show_disabled
+{
+	background-image: url('img/show.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	/*position: absolute;*/
+	position: relative;
+}
+
+DIV.tcal_show_disabled
+{
+	background-image: url('img/show_disabled.png');
+	cursor: default;
+}
+
+#tcal 
+{
+	position: absolute;
+	visibility: hidden;
+	z-index: 100;
+	width: 248px;
+	
+	background-color: white;
+	
+	border: 1px solid #a7a6aa;
+	border-radius: 2px 2px 2px 2px;	
+	-moz-border-radius: 2px 2px 2px 2px;	
+	-webkit-border-radius: 2px 2px 2px 2px;	
+	-khtml-border-radius: 2px 2px 2px 2px;			
+}
+
+#tcalControls 
+{
+	border-spacing: 1px;
+	border-collapse: separate;
+	background-color: white;	
+	width: 100%;
+	height: 32px;
+	background-color: #f7f7f7;
+}
+
+#tcalControls td 
+{
+	font-size: 11px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height: 24px;
+}
+
+#tcalControls th 
+{
+	font-size: 11px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	cursor: default;
+	white-space: nowrap;
+	width: 100%;
+	height: 24px;
+}
+
+#tcalNowDate
+{
+	background-image: url('img/now_date.png');
+	width: 22px;
+}
+
+#tcalLastDate
+{
+	background-image: url('img/last_date.png');
+	width: 22px;
+}
+
+#tcalFirstDate
+{
+	background-image: url('img/first_date.png');
+	width: 22px;
+}
+
+#tcalPrevYear 
+{
+	background-image: url('img/prev_year.png');
+	width: 22px;
+}
+
+#tcalPrevMonth 
+{
+	background-image: url('img/prev_mon.png'); 
+	width: 22px;
+}
+
+#tcalNextMonth
+{
+	background-image: url('img/next_mon.png');
+	width: 22px;
+}
+
+#tcalNextYear 
+{
+	background-image: url('img/next_year.png');
+	width: 22px;
+}
+
+#tcalGrid 
+{
+	width: 100%;
+	border-spacing: 1px;
+	border-collapse: separate;
+	background-color: white;	
+}
+
+#tcalGrid th 
+{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	background-color: #007fc0;
+	color: white;
+	height: 24px;
+	cursor: default;
+}
+
+#tcalGrid td 
+{
+
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 14%;
+	
+	background-color: #dadada;
+	
+	height: 24px;
+	font-size: 11px;
+	cursor: pointer;
+	color: black; 
+}		
+
+#tcalGrid td.tcalOtherMonth 
+{
+	color: #bfbfbf; 
+	background-color: #f7f7f7;
+}
+
+#tcalGrid td.tcalOtherWorkday
+{
+	background-color: #c8e19d;
+	color: silver; 
+}
+
+#tcalGrid td.tcalOtherWeekend
+{
+	background-color: #f6cece;
+	color: silver; 
+}
+
+#tcalGrid td.tcalWeekend 
+{
+	background-color: #df0024;
+	color: white;
+}
+
+#tcalGrid td.tcalSelectedWeekend 
+{
+	background-color: #0050a0;
+	color: #df0024;
+}
+
+#tcalGrid td.tcalOtherPreWeekend
+{
+	background-color: #efd3a0;
+	color: silver; 
+}
+
+#tcalGrid td.tcalPreWeekend 
+{
+	background-color: #ef9c00;
+	color: white;
+}
+
+#tcalGrid td.tcalSelectedPreWeekend 
+{
+	background-color: #0050a0;
+	color: #ef9c00;
+}
+
+#tcalGrid td.tcalWorkday
+{
+	background-color: #7cc623;
+	color: white;
+}
+
+#tcalGrid td.tcalSelectedWorkday
+{
+	background-color: #0050a0;
+	color: #7cc623;
+}
+
+#tcalGrid td.tcalToday 
+{
+	border-bottom: 1px solid red;
+}
+
+#tcalGrid td.tcalSelected 
+{
+	background-color: #0050a0;
+	color: white;
+}		

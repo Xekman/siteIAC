@@ -1,0 +1,78 @@
+body.jwysiwyg
+{
+	font-family: Tahoma, Arial; 
+	font-size: 10pt; 
+	margin: 0px;
+	background-color: white;
+}
+
+div.wysiwyg 
+{
+	font-family: Tahoma, Arial; 
+	font-size: 10pt; 
+	padding: 2px;
+	color: #000000;
+	border-color: #a7a6aa;
+	border-style: solid;
+	border-width: 1px;					
+	border-radius: 2px 2px 2px 2px;	
+	-moz-border-radius: 2px 2px 2px 2px;	
+	-webkit-border-radius: 2px 2px 2px 2px;	
+	-khtml-border-radius: 2px 2px 2px 2px;	
+	background-color: white;
+}
+div.wysiwyg * { margin: 0; padding: 0; }
+
+div.wysiwyg ul.panel {height: 27px; float: left; width: 100%; background-color: #f0f0f0;}
+div.wysiwyg ul.panel li { list-style-type: none; float: left; margin: 2px;  background-color: #f0f0f0;}
+div.wysiwyg ul.panel li.separator {height: 6px; margin: 2px; border-top: 8px solid #f0f0f0;  border-bottom: 8px solid #f0f0f0; border-left: 1px solid #b7b7b7;}
+div.wysiwyg ul.panel li a {text-indent: -5000px; border:1px solid #f0f0f0; display: block; width: 21px; height: 21px; background: url('img/toolbar.png') no-repeat -80px -10px; cursor: pointer; padding: 0px; margin: 0px;}
+div.wysiwyg ul.panel li a:hover, div.wysiwyg ul.panel li a.active {border:1px solid #b7b7b7; background-color: #e7e7e7;}
+div.wysiwyg ul.panel li a.active {border:1px solid #b7b7b7; background-color: #f0f0f0;}
+
+div.wysiwyg ul.panel li a.bold { background-position: 0 -20px; }
+div.wysiwyg ul.panel li a.italic { background-position: -20px -20px; }
+div.wysiwyg ul.panel li a.strikeThrough { background-position: -40px -20px; }
+div.wysiwyg ul.panel li a.underline { background-position: -60px -20px; }
+
+div.wysiwyg ul.panel li a.justifyLeft { background-position: 0 0; }
+div.wysiwyg ul.panel li a.justifyCenter { background-position: -20px 0; }
+div.wysiwyg ul.panel li a.justifyRight { background-position: -40px 0; }
+div.wysiwyg ul.panel li a.justifyFull { background-position: -60px 0; }
+
+div.wysiwyg ul.panel li a.indent { background-position: -80px 0; }
+div.wysiwyg ul.panel li a.outdent { background-position: -100px 0; }
+
+div.wysiwyg ul.panel li a.subscript { background-position: -80px -20px; }
+div.wysiwyg ul.panel li a.superscript { background-position: -100px -20px; }
+
+div.wysiwyg ul.panel li a.undo { background-position: 0 -80px; }
+div.wysiwyg ul.panel li a.redo { background-position: -20px -80px; }
+
+div.wysiwyg ul.panel li a.insertOrderedList { background-position: -40px -60px; }
+div.wysiwyg ul.panel li a.insertUnorderedList { background-position: -20px -60px; }
+div.wysiwyg ul.panel li a.insertHorizontalRule { background-position: 0 -60px; }
+
+div.wysiwyg ul.panel li a.h1 { background-position: 0 -40px; }
+div.wysiwyg ul.panel li a.h2 { background-position: -20px -40px; }
+div.wysiwyg ul.panel li a.h3 { background-position: -40px -40px; }
+div.wysiwyg ul.panel li a.h4 { background-position: -60px -40px; }
+div.wysiwyg ul.panel li a.h5 { background-position: -80px -40px; }
+div.wysiwyg ul.panel li a.h6 { background-position: -100px -40px; }
+
+div.wysiwyg ul.panel li a.cut { background-position: -40px -80px; }
+div.wysiwyg ul.panel li a.copy { background-position: -60px -80px; }
+div.wysiwyg ul.panel li a.paste { background-position: -80px -80px; }
+
+div.wysiwyg ul.panel li a.increaseFontSize { background-position: -20px -100px; }
+div.wysiwyg ul.panel li a.decreaseFontSize { background-position: -40px -100px; }
+
+div.wysiwyg ul.panel li a.createLink { background-position: -100px -60px; }
+div.wysiwyg ul.panel li a.insertImage { background-position: -100px -100px; }
+
+div.wysiwyg ul.panel li a.html { background-position: -60px -60px; }
+div.wysiwyg ul.panel li a.removeFormat { background-position: -100px -80px; }
+
+div.wysiwyg ul.panel li a.empty { background-position: -80px -100px; }
+
+div.wysiwyg iframe { border: 0;  clear: left; margin: 4px 0 0 1px; }
